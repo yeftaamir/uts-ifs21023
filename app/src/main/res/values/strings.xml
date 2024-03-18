@@ -1,0 +1,126 @@
+<resources>
+    <string name="nama_aplikasi">Dino Pedia</string>
+    <string name="ikon_dino">Ikon Film</string>
+    <string name="info_nama_famili">Nama Famili</string>
+    <string name="info_deskripsi_dino">Deskripsi Lengkap</string>
+    <string name="info_periode_hidup">Periode Hidup</string>
+    <string name="info_karakter_fisik">Karakter Fisik</string>
+    <string name="info_habitat_lingkungan">Habitat dan lingkungan Asli</string>
+    <string name="info_perilaku">Perilaku</string>
+    <string name="info_klasifikasi">Klasifikasi</string>
+
+    <string-array name="nama_famili">
+        <item>Tyrannosaurus</item>
+        <item>Sauropodomorpha</item>
+        <item>Stegosauridae</item>
+        <item>Hadrodauridae</item>
+        <item>Ceratopside</item>
+        <item>Velociraptorinae</item>
+        <item>Ankylosauridae</item>
+        <item>Spinosauridae</item>
+    </string-array>
+
+    <string-array name="gambar_dino">
+        <item>@drawable/famili_tyrannosaurus</item>
+        <item>@drawable/famili_sauropodomorpha</item>
+        <item>@drawable/famili_stegosauridae</item>
+        <item>@drawable/famili_hadrosauridae</item>
+        <item>@drawable/famili_ceratopsidae</item>
+        <item>@drawable/famili_velociraptorinae</item>
+        <item>@drawable/famili_ankylosauridae</item>
+        <item>@drawable/famili_spinosauridae</item>
+    </string-array>
+
+    <string-array name="periode_hidup">
+        <item>Kapur Akhir (sekitar 68 hingga 66 juta tahun yang lalu).</item>
+        <item>Trias Akhir hingga Kapur Awal (sekitar 230 hingga 66 juta tahun yang lalu).</item>
+        <item>Kapur Awal hingga Kapur Akhir (sekitar 155 hingga 150 juta tahun yang lalu).</item>
+        <item>Kapur Awal hingga Kapur Akhir (sekitar 90 hingga 65 juta tahun yang lalu).</item>
+        <item>Kapur Akhir (sekitar 75 hingga 66 juta tahun yang lalu).</item>
+        <item>Kapur Awal hingga Kapur Akhir (sekitar 85 hingga 70 juta tahun yang lalu).</item>
+        <item>Kapur Akhir (sekitar 68 hingga 66 juta tahun yang lalu).</item>
+        <item>Kapur Awal hingga Kapur Akhir (sekitar 110 hingga 95 juta tahun yang lalu).</item>
+    </string-array>
+
+    <string-array name="deskripsi_dino">
+        <item>Tyrannosaurus adalah seekor karnivora bipedal dengan tengkorak besar yang
+            diseimbangkan oleh ekornya yang berat dan panjang. Tyrannosaurus memiliki tungkai belakang yang kuat dan besar,
+            sementara tungkai depannya pendek dan hanya memiliki dua jari. Spesimen Tyrannosaurus yang paling lengkap memiliki panjang 14 m, tinggi 4 m di
+            bagian panggul. Tyrannosaurus masih menjadi salah satu predator darat terbesar yang pernah ditemukan dan diperkirakan memiliki gigitan terkuat di
+            antara semua hewan yang hidup di darat</item>
+
+        <item>Sauropodomorpha beradaptasi untuk meramban pada ketinggian yang lebih tinggi daripada herbivor lainnya,
+            memberi mereka akses kepada dedaunan pohon tinggi. Strategi makan ini didukung oleh banyak dari karakteristik yang mendefinisikan mereka,
+            seperti: tengkorak yang ringan dan kecil di ujung leher yang panjang (dengan 10 atau lebih vertebra serviks) serta memiliki ekor panjang sebagai penyeimbang
+            (dengan 1 hingga 3 vertebra sakral tambahan).</item>
+
+        <item>Stegosaurus adalah salah satu dinosaurus paling tenang, namun penyerangnya seperti Allosaurus atau Saurophaganax akan menghadapi pertahanan kuat-lempeng dengan semburat
+            merah(karena darah yang dipompakan ke dalam ruang lempengannya saat merasa terancam), serta ayunan ekor yang sangat berbahaya. Duri ekor Stegosaurus panjangnya dapat mencapai 1 m , dan
+            dapat melubangi pemangsa sampai sedalam 90 cm.</item>
+
+        <item>Hadrosaurus adalah dinosaurus berparuh-bebek pemakan tumbuhan.
+            Biasanya Hadrosaurus berjalan di atas keempat kaki, tapi kalau terpaksa, misalnya sedang dikejar T-rex,
+            Hadrosaurus bisa berlari kencang hanya dengan dua kaki belakangnya.</item>
+
+        <item>Regaliceratops merupakan genus dari dinosaurus herbivora ceratopsia yang telah punah yang hidup selama tahap Maastrichtian dari periode kapur akhir sekitar 68 juta tahun yang lalu, di tempat yang sekarang merupakan Alberta, Kanada.
+            Regaliceratops dimasukkan ke-famili ceratopsidae yang mencakup Triceratops, yaitu suatu famili Dari Dinosaurus berpinggul
+            burung Marginochepalia yang memiliki ciri berupa piringan tulang dibagian lehernya dan tanduk diatas mata dan diatas hidung yang terbuat dari 100% tulang yang terhubung langsung dengan tengkorak nya dan rahang yang menyerupai paruh burung Nuri/Kakak Tua.
+        </item>
+
+        <item>velociraptorine umumnya merupakan hewan kecil, setidaknya satu spesies mungkin telah mencapai ukuran raksasa yang sebanding dengan yang ditemukan
+            di antara dromaeosaurines . Sejauh ini, velociraptorine raksasa yang tidak disebutkan namanya ini hanya diketahui dari gigi
+            terisolasi yang ditemukan di Pulau Wight , Inggris . </item>
+
+        <item>Ankylosaurid tertua yang diketahui berumur sekitar 122 juta tahun yang lalu dan punah 66 juta tahun yang lalu selama peristiwa kepunahan Kapur–Paleogen.
+            Hewan-hewan ini kebanyakan adalah herbivora juga merupakan hewan berkaki empat, dengan gigi berbentuk daun dan tubuh yang kuat dan tertutup scute. Ankylosaurids memiliki
+            moncong yang jelas berkubah dan pendek, osteoderm berbentuk baji di tengkorak mereka, sisik di sepanjang batang tubuh mereka, dan gada ekor.</item>
+
+        <item>Spinosaurid adalah karnivora bipedal besar . Tengkorak mereka yang mirip buaya panjang, rendah dan sempit, memiliki gigi berbentuk kerucut dengan gerigi yang berkurang atau tidak ada . Ujung rahang atas dan bawah menyebar menjadi struktur berbentuk sendok mirip roset , 
+            di belakangnya terdapat lekukan di rahang atas yang cocok dengan ujung rahang bawah yang melebar. Lubang hidung spinosaurid ditarik ke posisi lebih jauh ke belakang kepala dibandingkan kebanyakan t
+            heropoda lainnya, dan mereka memiliki jambul tulang di kepala mereka di sepanjang garis tengah tengkorak mereka. Bahu mereka yang kokoh memiliki kaki depan yang kekar, dengan tangan berjari tiga yang memiliki cakar besar di jari pertama .</item>
+    </string-array>
+
+    <string-array name="karakter_fisik">
+        <item>Kepala besar, gigi yang besar dan tajam, lengan depan yang kecil.</item>
+        <item>Tubuh besar, leher panjang, kaki yang kuat.</item>
+        <item>Punggung dilindungi oleh plat atau tulang berduri, kaki yang pendek.</item>
+        <item>Paruh seperti bebek, kaki yang kuat, ekor panjang.</item>
+        <item>Tanduk di kepala, cula besar di wajah, tubuh besar.</item>
+        <item>Tubuh kecil, cakar tajam, rahang yang kuat.</item>
+        <item>Dilindungi oleh piringan tulang, tubuh berat, ekor berat dan berduri.</item>
+        <item>Rahang panjang, taring besar, tubuh besar.</item>
+    </string-array>
+
+    <string-array name="habitat_lingkungan_hidup">
+        <item>Terutama daratan dan daerah terbuka.</item>
+        <item>Biasanya hidup di daratan dengan vegetasi yang luas.</item>
+        <item>Daerah terbuka dengan vegetasi yang cukup.</item>
+        <item>Daerah dataran rendah dengan vegetasi yang melimpah.</item>
+        <item>Daerah yang luas dengan vegetasi yang beragam.</item>
+        <item>Terutama hidup di daratan terbuka.</item>
+        <item>Biasanya hidup di daerah dataran rendah dengan vegetasi yang melimpah.</item>
+        <item>Terutama hidup di daerah sungai dan rawa-rawa.</item>
+    </string-array>
+
+    <string-array name="perilaku_dino">
+        <item>Pemangsa besar dengan kemampuan berburu yang kuat.</item>
+        <item>Herbivora yang menghabiskan sebagian besar waktu mencari makan.</item>
+        <item>Memiliki tulang berduri sebagai pertahanan.</item>
+        <item>Hidup dalam kelompok besar dan menggunakan suara komunikasi.</item>
+        <item>Memiliki tanduk sebagai pertahanan atau tampilan.</item>
+        <item>Pemangsa yang berburu dalam kelompok kecil.</item>
+        <item>Memiliki piringan tulang untuk pertahanan.</item>
+        <item>Memburu ikan dan hewan air lainnya.</item>
+    </string-array>
+
+    <string-array name="klasifikasi_dino">
+        <item>Theropoda</item>
+        <item>Saurischia</item>
+        <item>Ornithischia</item>
+        <item>Ornithischia</item>
+        <item>Ornithischia</item>
+        <item>Theropoda</item>
+        <item>Ornithischia</item>
+        <item>Theropoda</item>
+    </string-array>
+</resources>
