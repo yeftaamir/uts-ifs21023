@@ -20,12 +20,12 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         binding.rvDinosaurus.setHasFixedSize(false)
-        dataDinosaurus.addAll(getListFilms())
+        dataDinosaurus.addAll(getListDinosaurus())
         showRecyclerList()
     }
 
     @SuppressLint("Recycle")
-    private fun getListFilms(): ArrayList<Dinosaurus> {
+    private fun getListDinosaurus(): ArrayList<Dinosaurus> {
         val dataName =
             resources.getStringArray(R.array.nama_famili)
         val dataIcon =
@@ -45,12 +45,12 @@ class MainActivity : AppCompatActivity() {
 
         val listDinosaurus = ArrayList<Dinosaurus>()
         for (i in dataName.indices) {
-            val film = Dinosaurus(
+            val dino = Dinosaurus(
                 dataName[i],
                 dataIcon.getResourceId(i, -1), dataDescription[i],
                 dataPeriod[i], dataCharater[i], dataHabit[i], dataPerilaku[i], dataKlasifikasi[i]
             )
-            listDinosaurus.add(film)
+            listDinosaurus.add(dino)
         }
         return listDinosaurus
     }
@@ -75,12 +75,12 @@ class MainActivity : AppCompatActivity() {
         })
     }
 
-    private fun showSelectedFilm(film: Dinosaurus) {
+    private fun showSelectedFilm(dino: Dinosaurus) {
         val intentWithData = Intent(
             this@MainActivity,
             DetailActivity::class.java
         )
-        intentWithData.putExtra(DetailActivity.EXTRA_DINO, film)
+        intentWithData.putExtra(DetailActivity.EXTRA_DINO, dino)
         startActivity(intentWithData)
     }
 
