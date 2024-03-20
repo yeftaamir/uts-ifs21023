@@ -7,7 +7,7 @@ plugins {
 android {
     namespace = "com.ifs21023.dinopedia"
     compileSdk = 34
-
+    buildFeatures { viewBinding = true }
     defaultConfig {
         applicationId = "com.ifs21023.dinopedia"
         minSdk = 24

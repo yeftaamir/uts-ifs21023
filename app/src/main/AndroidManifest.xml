@@ -6,9 +6,9 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:icon="@drawable/logo_dino"
+        android:label="@string/nama_aplikasi"
+        android:roundIcon="@drawable/logo_dino"
         android:supportsRtl="true"
         android:theme="@style/Theme.DinoPedia"
         tools:targetApi="31">
@@ -22,7 +22,7 @@
             android:name=".UtamaActivity"
             android:exported="false" />
         <activity
-            android:name=".DetilActivity"
+            android:name=".DetailActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

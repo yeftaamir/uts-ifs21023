@@ -4,3 +4,4 @@
 ## Yefta Miranda
 
 -[18/3/2024] UTS Dino Pedia
+-[19/3/2024] Memperbaiki Error pada activity

@@ -66,7 +66,7 @@ class MainActivity : AppCompatActivity() {
                 LinearLayoutManager(this)
         }
         val listFilmAdapter = ListDinoAdapter(dataDinosaurus)
-        binding.rvFilm.adapter = listFilmAdapter
+        binding.rvDinosaurus.adapter = listFilmAdapter
         listFilmAdapter.setOnItemClickCallback(object :
             ListDinoAdapter.OnItemClickCallback {
             override fun onItemClicked(data: Dinosaurus) {
@@ -78,9 +78,9 @@ class MainActivity : AppCompatActivity() {
     private fun showSelectedFilm(film: Dinosaurus) {
         val intentWithData = Intent(
             this@MainActivity,
-            DetilActivity::class.java
+            DetailActivity::class.java
         )
-        intentWithData.putExtra(DetilActivity.EXTRA_DINO, film)
+        intentWithData.putExtra(DetailActivity.EXTRA_DINO, film)
         startActivity(intentWithData)
     }
 
