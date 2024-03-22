@@ -1,19 +1,22 @@
 <resources>
     <string name="nama_aplikasi">Dino Pedia</string>
-    <string name="ikon_dino">Ikon Film</string>
+    <string name="ikon_dino">Ikon Dino</string>
     <string name="info_nama_famili">Nama Famili</string>
-    <string name="info_deskripsi_dino">Deskripsi Lengkap</string>
+    <string name="info_deskripsi_famili">Deskripsi Lengkap</string>
     <string name="info_periode_hidup">Periode Hidup</string>
     <string name="info_karakter_fisik">Karakter Fisik</string>
     <string name="info_habitat_lingkungan">Habitat dan lingkungan Asli</string>
     <string name="info_perilaku">Perilaku</string>
     <string name="info_klasifikasi">Klasifikasi</string>
+    <string name="info_nama_dino">Nama Dino</string>
+    <string name="info_gambar_dino">Gambar Dino</string>
+    <string name="info_desc_dino">Deskripsi</string>
 
     <string-array name="nama_famili">
-        <item>Tyrannosaurus</item>
+        <item>Tyrannosauridea</item>
         <item>Sauropodomorpha</item>
         <item>Stegosauridae</item>
-        <item>Hadrodauridae</item>
+        <item>Hadrosauridae</item>
         <item>Ceratopside</item>
         <item>Velociraptorinae</item>
         <item>Ankylosauridae</item>
@@ -43,7 +46,7 @@
     </string-array>
 
     <string-array name="deskripsi_dino">
-        <item>Tyrannosaurus adalah seekor karnivora bipedal dengan tengkorak besar yang
+        <item>Tyrannosauridea adalah seekor karnivora bipedal dengan tengkorak besar yang
             diseimbangkan oleh ekornya yang berat dan panjang. Tyrannosaurus memiliki tungkai belakang yang kuat dan besar,
             sementara tungkai depannya pendek dan hanya memiliki dua jari. Spesimen Tyrannosaurus yang paling lengkap memiliki panjang 14 m, tinggi 4 m di
             bagian panggul. Tyrannosaurus masih menjadi salah satu predator darat terbesar yang pernah ditemukan dan diperkirakan memiliki gigitan terkuat di
@@ -122,5 +125,107 @@
         <item>Theropoda</item>
         <item>Ornithischia</item>
         <item>Theropoda</item>
+    </string-array>
+
+    <string-array name="tyrannosauridea_nama">
+        <item>Tyranosaurus Rex</item>
+        <item>Albertosaurus</item>
+    </string-array>
+
+    <string-array name="tyrannosauridea_gambar">
+        <item>@drawable/img_tyrex</item>
+        <item>@drawable/img_albertosaurus</item>
+    </string-array>
+
+    <string-array name="tyrannosauridea_desc">
+        <item>Tyrannosaurus adalah genus dinosaurus theropoda besar, sering disebut T. rex atau bahasa sehari-hari T-Rex , adalah salah satu theropoda yang paling terwakili. Ia hidup di wilayah yang sekarang disebut Amerika Utara bagian barat ,
+            di wilayah yang dulunya merupakan benua kepulauan yang dikenal sebagai Laramidia.
+        Tyrannosaurus adalah karnivora berkaki dua dengan tengkorak besar yang diimbangi dengan ekor yang panjang dan berat. Dibandingkan dengan tungkai belakangnya yang besar dan kuat, tungkai depan Tyrannosaurus pendek namun sangat kuat untuk ukurannya,
+            dan mereka memiliki dua jari yang bercakar. Spesimen paling lengkap berukuran panjang hingga 12,3–12,4 m (40–41 kaki), namun menurut perkiraan paling modern, Tyrannosaurus bisa saja melebihi ukuran panjang 13 m (43 kaki), dan 3,7–4 m (12–13 kaki). ft)
+            tinggi pinggul, dan massa 8,8 ton (8,7 ton panjang; 9,7 ton pendek).</item>
+
+        <item>Albertosaurus adalah saudara dekat Tyrannosaurus rex dan hidup sekitar 70 juta tahun yang lalu di wilayah yang sekarang menjadi Amerika Utara,
+            terutama di wilayah yang sekarang menjadi Kanada. Albertosaurus memiliki ukuran yang lebih kecil daripada Tyrannosaurus rex tetapi masih merupakan
+            predator yang kuat dalam ekosistemnya.</item>
+    </string-array>
+
+    <string-array name="sauropodomorpha_nama">
+        <item>Brontosaurus</item>
+        <item>Diplodocus</item>
+    </string-array>
+
+    <string-array name="sauropodomorpha_gambar">
+        <item>@drawable/img_brontosaurus</item>
+        <item>@drawable/img_diplodocus</item>
+    </string-array>
+
+    <string-array name="sauropodomorpha_desc">
+        <item>Brontosaurus adalah hewan berkaki empat yang besar, berleher panjang, dengan ekor panjang seperti cambuk, dan kaki depan sedikit lebih
+            pendek daripada kaki belakangnya. Spesies terbesar, B. excelsus , berukuran panjang hingga 21–22 m (69–72 kaki) dari kepala hingga ekor dan beratnya mencapai 15–17 t (17–19 short ton);
+            spesies lain lebih kecil, berukuran panjang 19 m (62 kaki) dan berat 14 t (15 ton pendek).</item>
+
+        <item>Diplodocus ini hidup sekitar 154-150 juta tahun yang lalu di wilayah yang sekarang menjadi Amerika Utara.
+            Diplodocus memiliki tubuh yang panjang dan ramping dengan leher yang ekstrem panjang. Mereka juga merupakan hewan herbivora
+            yang memakan dedaunan dan tanaman rendah.</item>
+    </string-array>
+
+    <string-array name="stegosauridae_nama">
+        <item>Stegosaurus</item>
+        <item>Kentosaurus</item>
+    </string-array>
+
+    <string-array name="stegosauridae_gambar">
+        <item>@drawable/img_stegosaurus</item>
+        <item>@drawable/img_kentosaurus</item>
+    </string-array>
+
+    <string-array name="stegosauridae_desc">
+        <item>Stegosaurus adalah sebuah genus dinosaurus herbivora besar dari Awal Jurassic di Amerika Utara.
+            Spesies ini adalah salah satu jenis dinosaurus yang paling mudah diidentifikasi, karena kedua baris sisik yang saling silang di punggungnya
+            (dasar untuk nama ilmiahnya) dan 2 pasang duri panjang di ekornya (disebut thagomizer). Stegosaurus adalah salah satu dinosaurus paling tenang, namun penyerangnya seperti Allosaurus atau
+            Saurophaganax akan menghadapi pertahanan kuat-lempeng dengan semburat merah(karena darah yang dipompakan ke dalam ruang lempengannya saat merasa terancam), serta ayunan ekor yang sangat berbahaya.
+            Duri ekor Stegosaurus panjangnya dapat mencapai 1 m , dan dapat melubangi pemangsa sampai sedalam 90 cm. </item>
+
+        <item>Kentrosaurus adalah genus dari dinosaurus stegosaurid yang hidup pada Jura Akhir di Wilayah Lindi, Tanzania. Spesies tipenya adalah K. aethiopicus,
+            yang dinamai dan dideksripsikan oleh paleontolog Jerman Edwin Hennig pada 1915. Kentrosaurus umumnya memiliki panjang sekitar 4-4.5 meter saat dewasa, serta memiliki berat sekitar 700-1600 kilogram.
+            Mereka berjalan dengan empat kaki dengan kaki belakang yang tegak. Mereka juga memiliki kepala yang memanjang kedepan dan kecil, dengan paruh yang digunakan untuk mencabut material tumbuhan yang
+            nantinya akan dicerna pada lambung yang besar.</item>
+    </string-array>
+
+    <string-array name="hadrosauridae_nama">
+        <item>Edmontosaurus</item>
+        <item>Parasaurolophus</item>
+    </string-array>
+
+    <string-array name="hadrosauridae_gambar">
+        <item>@drawable/img_edmontosaurus</item>
+        <item>@drawable/img_parasaurolophus</item>
+    </string-array>
+
+    <string-array name="hadrosauridae_desc">
+        <item> Dinosaurus ini merupakan anggota famili Hadrosauridae yang hidup sekitar 73-66 juta
+            tahun yang lalu di wilayah yang sekarang menjadi Amerika Utara. Mereka memiliki tubuh besar dengan leher dan ekor yang panjang. Edmontosaurus adalah salah satu hadrosaurid yang paling
+            banyak ditemukan, dan fosil-fosilnya telah ditemukan di banyak lokasi di Amerika Utara.</item>
+        <item>Dinosaurs ini hidup sekitar 76-73 juta tahun yang lalu, juga di wilayah yang sekarang menjadi Amerika Utara.
+            Mereka dikenal karena crests panjang yang mengarah ke belakang dari tengkorak mereka. Crests ini diyakini digunakan untuk komunikasi
+            suara dan mungkin juga untuk mempertahankan spesies atau menarik pasangan.</item>
+    </string-array>
+
+    <string-array name="ceratopside_nama">
+        <item>Edmontosaurus</item>
+        <item>Parasaurolophus</item>
+    </string-array>
+
+    <string-array name="ceratopside_gambar">
+        <item>@drawable/img_triceratops</item>
+        <item>@drawable/img_styracosaurus</item>
+    </string-array>
+
+    <string-array name="ceratopside_desc">
+        <item> Triceratops adalah salah satu dinosaurus ceratopsid yang paling terkenal. Mereka hidup sekitar 68-66 juta tahun yang lalu,
+            pada periode Kapur Akhir, di wilayah yang sekarang menjadi Amerika Utara. Triceratops memiliki tiga tanduk di atas tengkoraknya: satu tanduk di hidung dan dua tanduk di atas mata.
+            Mereka juga memiliki lempengan tulang besar yang melengkung di belakang tengkorak mereka. Triceratops adalah salah satu dinosaurus terbesar dari famili Ceratopsidae.</item>
+        <item>Styracosaurus hidup sekitar 75-70 juta tahun yang lalu, juga di Amerika Utara. Mereka memiliki ciri khas berupa satu tanduk besar yang menonjol di hidung mereka,
+            serta beberapa tanduk kecil di sekitar pinggiran tengkorak mereka. Styracosaurus juga memiliki lempengan tulang yang besar di belakang tengkorak mereka yang membentuk seperti cakar.</item>
     </string-array>
 </resources>

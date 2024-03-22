@@ -78,7 +78,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
             android:fontFamily="serif"
-            android:text="@string/info_deskripsi_dino"
+            android:text="@string/info_deskripsi_famili"
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -91,7 +91,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="24dp"
             android:fontFamily="serif"
-            android:text="@string/info_deskripsi_dino"
+            android:text="@string/info_deskripsi_famili"
             android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
@@ -199,14 +199,15 @@
             app:layout_constraintTop_toBottomOf="@+id/tvTitleKlasifikasi" />
 
         <Button
-            android:id="@+id/button"
-            android:layout_width="120dp"
-            android:layout_height="49dp"
-            android:layout_marginTop="30dp"
-            android:text="Button"
+            android:id="@+id/btnSelengkapnya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Selengkapnya"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvTitleKlasifikasi" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </ScrollView>

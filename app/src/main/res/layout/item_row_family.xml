@@ -16,7 +16,7 @@
             android:id="@+id/imgDino"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            app:srcCompat="@drawable/img_tyrex"/>
+            app:srcCompat="@drawable/famili_tyrannosaurus"/>
 
         <TextView
             android:id="@+id/tvItemFamili"
@@ -25,7 +25,7 @@
             android:layout_marginStart="10dp"
             android:layout_weight="1"
             android:gravity="center_vertical"
-            android:text="@string/info_nama_dino"
+            android:text="@string/info_nama_famili"
             android:fontFamily="@font/poppins_bold"
             android:textSize="20sp"/>
 

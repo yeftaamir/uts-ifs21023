@@ -6,6 +6,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.ifs21023.dinopedia.databinding.ItemRowDinoBinding
 
+
 class ListDinoAdapter(private val listDinosaurus: ArrayList<Dinosaurus>) :
     RecyclerView.Adapter<ListDinoAdapter.ListViewHolder>() {
     private lateinit var onItemClickCallback: OnItemClickCallback
@@ -26,7 +27,7 @@ class ListDinoAdapter(private val listDinosaurus: ArrayList<Dinosaurus>) :
     override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
         val dino = listDinosaurus[position]
         holder.binding.imgDino.setImageResource(dino.icon)
-        holder.binding.tvItemDino.text = dino.name
+        holder.binding.tvItemFamili.text = dino.name
         holder.itemView.setOnClickListener {
             onItemClickCallback.onItemClicked(listDinosaurus[holder.adapterPosition])
         }

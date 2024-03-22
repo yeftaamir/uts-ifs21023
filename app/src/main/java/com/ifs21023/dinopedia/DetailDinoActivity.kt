@@ -1,30 +1,18 @@
 package com.ifs21023.dinopedia
 
-import android.content.Intent
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
-import android.widget.Button
 import com.ifs21023.dinopedia.databinding.ActivityDetailBinding
 
-class DetailActivity : AppCompatActivity() {
+class DetailDinoActivity : AppCompatActivity() {
     private lateinit var binding: ActivityDetailBinding
     private var dino: Dinosaurus? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityDetailBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
-        val btnSelengkapnya = findViewById<Button>(R.id.btnSelengkapnya)
-        btnSelengkapnya.setOnClickListener {
-            // Buat Intent untuk memulai DinoDetailActivity
-            val intent = Intent(this, DetailDinoActivity::class.java)
-            intent.putExtra(EXTRA_DINO, dino)
-            // Mulai DinoDetailActivity
-            startActivity(intent)
-        }
-
         dino = if (Build.VERSION.SDK_INT >= 33) {
             intent.getParcelableExtra(EXTRA_DINO,
                 Dinosaurus::class.java)
@@ -39,18 +27,18 @@ class DetailActivity : AppCompatActivity() {
         } else {
             finish()
         }
-
-
     }
     private fun loadData(dino: Dinosaurus) {
-        binding.ivGambar.setImageResource(dino.icon)
-        binding.tvNamaDino.text = dino.name
-        binding.tvDescription.text = dino.description
-        binding.tvPeriodeHidup.text = dino.period
-        binding.tvDescKarakter.text = dino.character
-        binding.tvDetailHabitat.text = dino.habit
-        binding.tvDetailPerilaku.text = dino.perilaku
-        binding.tvDetailKlasifikasi.text = dino.klasifikasi
+        binding.ivGambar.setImageResource(dino.gambar1)
+        binding.ivGambar.setImageResource(dino.gambar2)
+        binding.ivGambar.setImageResource(dino.gambar3)
+        binding.ivGambar.setImageResource(dino.gambar4)
+        binding.ivGambar.setImageResource(dino.gambar5)
+        binding.tvNamaDino.text = dino.namadino1
+        binding.tvNamaDino.text = dino.namadino2
+        binding.tvNamaDino.text = dino.namadino3
+        binding.tvNamaDino.text = dino.namadino4
+        binding.tvNamaDino.text = dino.namadino5
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
