@@ -1,44 +1,58 @@
 package com.ifs21023.dinopedia
 
-import android.os.Build
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
-import com.ifs21023.dinopedia.databinding.ActivityDetailBinding
+import android.widget.Button
+import com.ifs21023.dinopedia.DinoMainActivity.Companion.EXTRA_DINO
+import com.ifs21023.dinopedia.databinding.ActivityDetailDinoBinding
 
 class DetailDinoActivity : AppCompatActivity() {
-    private lateinit var binding: ActivityDetailBinding
-    private var dino: Dinosaurus? = null
+    private lateinit var binding: ActivityDetailDinoBinding
+    private var dino: Dino? = null
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityDetailBinding.inflate(layoutInflater)
+        binding = ActivityDetailDinoBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        dino = if (Build.VERSION.SDK_INT >= 33) {
-            intent.getParcelableExtra(EXTRA_DINO,
-                Dinosaurus::class.java)
-        } else {
-            @Suppress("DEPRECATION")
-            intent.getParcelableExtra(EXTRA_DINO)
-        }
+        dino = intent.getParcelableExtra(EXTRA_DINO)
+
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         if (dino != null) {
-            supportActionBar?.title = "Film ${dino!!.name}"
+            supportActionBar?.title = "Jenis Dinosaurus ${dino!!.name}"
             loadData(dino!!)
         } else {
             finish()
         }
+
+        val btnKembali: Button = findViewById(R.id.btnKembaliDino)
+
+        btnKembali.setOnClickListener {
+            val intent = Intent(this, ListDinoAdapter::class.java)
+            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_NEW_TASK)
+            startActivity(intent)
+            finish()
+        }
+
+        val btnKembaliKeDino: Button = findViewById(R.id.btnKembaliFamili)
+
+        btnKembaliKeDino.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_NEW_TASK)
+            startActivity(intent)
+            finish()
+        }
+
     }
-    private fun loadData(dino: Dinosaurus) {
-        binding.ivGambar.setImageResource(dino.gambar1)
-        binding.ivGambar.setImageResource(dino.gambar2)
-        binding.ivGambar.setImageResource(dino.gambar3)
-        binding.ivGambar.setImageResource(dino.gambar4)
-        binding.ivGambar.setImageResource(dino.gambar5)
-        binding.tvNamaDino.text = dino.namadino1
-        binding.tvNamaDino.text = dino.namadino2
-        binding.tvNamaDino.text = dino.namadino3
-        binding.tvNamaDino.text = dino.namadino4
-        binding.tvNamaDino.text = dino.namadino5
+
+    private fun loadData(dino : Dino) {
+        binding.ivDetailIcon.setImageResource(dino.icon)
+        binding.tvNamaDino.text = dino.name
+        binding.tvDescDino.text = dino.deskripsi
+        binding.tvKelompok.text = dino.kelompok
+        binding.tvHabitat.text = dino.habitat
+
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {

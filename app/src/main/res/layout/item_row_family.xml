@@ -13,7 +13,7 @@
         android:padding="10dp"
         tools:ignore="UseCompoundDrawables">
         <ImageView
-            android:id="@+id/imgDino"
+            android:id="@+id/imgFamili"
             android:layout_width="100dp"
             android:layout_height="100dp"
             app:srcCompat="@drawable/famili_tyrannosaurus"/>

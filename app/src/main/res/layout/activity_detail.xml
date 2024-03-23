@@ -202,11 +202,24 @@
             android:id="@+id/btnSelengkapnya"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
+            android:layout_marginStart="20dp"
             android:text="Selengkapnya"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btnKembali"
+            app:layout_constraintTop_toBottomOf="@+id/tvDetailKlasifikasi"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/btnKembali"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:text="Kembali"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tvTitleKlasifikasi" />
+            app:layout_constraintTop_toTopOf="@+id/tvDetailKlasifikasi" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

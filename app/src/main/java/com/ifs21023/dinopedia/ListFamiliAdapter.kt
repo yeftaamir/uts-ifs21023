@@ -4,11 +4,11 @@ import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.ifs21023.dinopedia.databinding.ItemRowDinoBinding
+import com.ifs21023.dinopedia.databinding.ItemRowFamilyBinding
 
 
-class ListDinoAdapter(private val listDino: ArrayList<Dino>) :
-    RecyclerView.Adapter<ListDinoAdapter.ListViewHolder>() {
+class ListFamiliAdapter(private val listFamili: ArrayList<Famili>) :
+    RecyclerView.Adapter<ListFamiliAdapter.ListViewHolder>() {
     private lateinit var onItemClickCallback: OnItemClickCallback
 
     fun setOnItemClickCallback(onItemClickCallback: OnItemClickCallback) {
@@ -16,7 +16,7 @@ class ListDinoAdapter(private val listDino: ArrayList<Dino>) :
     }
 
     override fun onCreateViewHolder(viewGroup: ViewGroup, viewType: Int): ListViewHolder {
-        val binding = ItemRowDinoBinding.inflate(
+        val binding = ItemRowFamilyBinding.inflate(
             LayoutInflater.from(viewGroup.context),
             viewGroup, false
         )
@@ -25,20 +25,20 @@ class ListDinoAdapter(private val listDino: ArrayList<Dino>) :
 
     @SuppressLint("SetTextI18n")
     override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
-        val dino = listDino[position]
-        holder.binding.imgDino.setImageResource(dino.icon)
-        holder.binding.tvItemDino.text = dino.name
+        val famili = listFamili[position]
+        holder.binding.imgFamili.setImageResource(famili.icon)
+        holder.binding.tvItemFamili.text = famili.name
         holder.itemView.setOnClickListener {
-            onItemClickCallback.onItemClicked(listDino[holder.adapterPosition])
+            onItemClickCallback.onItemClicked(listFamili[holder.adapterPosition])
         }
     }
 
-    override fun getItemCount(): Int = listDino.size
+    override fun getItemCount(): Int = listFamili.size
 
-    class ListViewHolder(var binding: ItemRowDinoBinding) :
+    class ListViewHolder(var binding: ItemRowFamilyBinding) :
         RecyclerView.ViewHolder(binding.root)
 
     interface OnItemClickCallback {
-        fun onItemClicked(data: Dino)
+        fun onItemClicked(data: Famili)
     }
 }

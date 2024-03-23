@@ -19,7 +19,7 @@
             app:srcCompat="@drawable/img_tyrex"/>
 
         <TextView
-            android:id="@+id/tvItemFamili"
+            android:id="@+id/tvItemDino"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_marginStart="10dp"

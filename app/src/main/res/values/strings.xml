@@ -8,9 +8,6 @@
     <string name="info_habitat_lingkungan">Habitat dan lingkungan Asli</string>
     <string name="info_perilaku">Perilaku</string>
     <string name="info_klasifikasi">Klasifikasi</string>
-    <string name="info_nama_dino">Nama Dino</string>
-    <string name="info_gambar_dino">Gambar Dino</string>
-    <string name="info_desc_dino">Deskripsi</string>
 
     <string-array name="nama_famili">
         <item>Tyrannosauridea</item>
@@ -23,7 +20,7 @@
         <item>Spinosauridae</item>
     </string-array>
 
-    <string-array name="gambar_dino">
+    <string-array name="gambar_famili">
         <item>@drawable/famili_tyrannosaurus</item>
         <item>@drawable/famili_sauropodomorpha</item>
         <item>@drawable/famili_stegosauridae</item>
@@ -45,7 +42,7 @@
         <item>Kapur Awal hingga Kapur Akhir (sekitar 110 hingga 95 juta tahun yang lalu).</item>
     </string-array>
 
-    <string-array name="deskripsi_dino">
+    <string-array name="deskripsi_famili">
         <item>Tyrannosauridea adalah seekor karnivora bipedal dengan tengkorak besar yang
             diseimbangkan oleh ekornya yang berat dan panjang. Tyrannosaurus memiliki tungkai belakang yang kuat dan besar,
             sementara tungkai depannya pendek dan hanya memiliki dua jari. Spesimen Tyrannosaurus yang paling lengkap memiliki panjang 14 m, tinggi 4 m di
@@ -127,59 +124,124 @@
         <item>Theropoda</item>
     </string-array>
 
-    <string-array name="tyrannosauridea_nama">
+<!-- DINO INFO    -->
+    <string name="info_nama_dino">Nama Dinosaurus</string>
+    <string name="info_gambar_dino">Gambar Dinosaurus</string>
+    <string name="info_deskripsi_dino">Deskripsi Dinosaurus</string>
+    <string name="karakteristik_dino">Karakteristik Dinosaurus</string>
+    <string name="kelompok_dino">Kelompok Dinosaurus</string>
+    <string name="habitat_dino">Habitat Dinosaurus</string>
+
+    <string-array name="nama_dino">
         <item>Tyranosaurus Rex</item>
         <item>Albertosaurus</item>
+        <item>Brontosaurus</item>
+        <item>Diplodocus</item>
+        <item>Stegosaurus</item>
+        <item>Kentosaurus</item>
+        <item>Edmontosaurus</item>
+        <item>Parasaurolophus</item>
+        <item>Triceratops</item>
+        <item>Centrosaurus</item>
+        <item>Velociraptor</item>
+        <item>Deinonychus</item>
+        <item>Ankylosaurus</item>
+        <item>Euoplocephalus</item>
+        <item>Spinosaurus</item>
     </string-array>
 
-    <string-array name="tyrannosauridea_gambar">
+    <string-array name="habitat_dino">
+        <item>Dataran banjir dan hutan langka di Amerika Utara bagian barat selama periode Kapur Akhir. </item>
+        <item>Dataran banjir dan hutan langka di Amerika Utara bagian barat selama periode Kapur Akhir. </item>
+        <item>Hutan dan dataran banjir di Amerika Utara bagian barat selama periode Jurassic Akhir dan Kapur Awal.</item>
+        <item>Hutan dan dataran banjir di Amerika Utara bagian barat selama periode Jurassic Akhir dan Kapur Awal</item>
+        <item>Hutan dan padang rumput di Amerika Utara, Eropa, dan Asia selama periode Jurassic Akhir dan Kapur Awal.</item>
+        <item>Hutan dan sabana di Afrika timur selama periode Jurassic Akhir dan Kapur Awal.</item>
+        <item>Dataran banjir dan hutan di Amerika Utara bagian barat selama periode Kapur Akhir</item>
+        <item>Dataran banjir dan hutan di Amerika Utara bagian barat selama periode Kapur Akhir. </item>
+        <item>Dataran banjir dan hutan di Amerika Utara bagian barat selama periode Kapur Akhir.</item>
+        <item>Dataran banjir dan hutan di Amerika Utara bagian barat selama periode Kapur Akhir.</item>
+        <item>Hutan dan dataran banjir di Asia Tengah selama periode Kapur Akhir. </item>
+        <item>Hutan dan dataran banjir di Asia Tengah selama periode Kapur Akhir. </item>
+        <item>Hutan dan dataran banjir di Amerika Utara bagian barat selama periode Kapur Akhir.</item>
+        <item>Hutan dan dataran banjir di Amerika Utara bagian barat selama periode Kapur Akhir.</item>
+        <item>Hutan dan dataran banjir di Amerika Utara bagian barat selama periode Kapur Akhir.</item>
+        <item>Sungai, danau, dan dataran banjir di Afrika Utara selama periode Kapur Awal dan Tengah.</item>
+    </string-array>
+
+    <string-array name="start">
+        <item>0</item>
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+    </string-array>
+
+    <string-array name="end">
+        <item>1</item>
+        <item>3</item>
+        <item>5</item>
+        <item>7</item>
+        <item>9</item>
+        <item>11</item>
+        <item>13</item>
+        <item>15</item>
+    </string-array>
+
+    <string-array name="dino_gambar">
         <item>@drawable/img_tyrex</item>
         <item>@drawable/img_albertosaurus</item>
+        <item>@drawable/img_brontosaurus</item>
+        <item>@drawable/img_diplodocus</item>
+        <item>@drawable/img_stegosaurus</item>
+        <item>@drawable/img_kentosaurus</item>
+        <item>@drawable/img_edmontosaurus</item>
+        <item>@drawable/img_parasaurolophus</item>
+        <item>@drawable/img_triceratops</item>
+        <item>@drawable/img_centrosaurus</item>
+        <item>@drawable/img_velocirapto</item>
+        <item>@drawable/img_deinonychus</item>
+        <item>@drawable/img_ankylosaurus</item>
+        <item>@drawable/img_euoplocephalus</item>
+        <item>@drawable/img_spinosaurus</item>
     </string-array>
 
-    <string-array name="tyrannosauridea_desc">
+    <string-array name="dino_kelompok">
+        <item>Theropoda</item>
+        <item>Theropoda</item>
+        <item>Saurischia</item>
+        <item>Saurischia</item>
+        <item>Ornithischia</item>
+        <item>Ornithischia</item>
+        <item>Ornithischia</item>
+        <item>Ornithischia</item>
+        <item>Ornithischia</item>
+        <item>Ceratopsia</item>
+        <item>Theropoda</item>
+        <item>Ornithischia</item>
+        <item>Ankylosauria</item>
+        <item>Sauropsida</item>
+        <item>Spinosaurida</item>
+    </string-array>
+
+    <string-array name="deskripsi_dino">
         <item>Tyrannosaurus adalah genus dinosaurus theropoda besar, sering disebut T. rex atau bahasa sehari-hari T-Rex , adalah salah satu theropoda yang paling terwakili. Ia hidup di wilayah yang sekarang disebut Amerika Utara bagian barat ,
             di wilayah yang dulunya merupakan benua kepulauan yang dikenal sebagai Laramidia.
         Tyrannosaurus adalah karnivora berkaki dua dengan tengkorak besar yang diimbangi dengan ekor yang panjang dan berat. Dibandingkan dengan tungkai belakangnya yang besar dan kuat, tungkai depan Tyrannosaurus pendek namun sangat kuat untuk ukurannya,
             dan mereka memiliki dua jari yang bercakar. Spesimen paling lengkap berukuran panjang hingga 12,3–12,4 m (40–41 kaki), namun menurut perkiraan paling modern, Tyrannosaurus bisa saja melebihi ukuran panjang 13 m (43 kaki), dan 3,7–4 m (12–13 kaki). ft)
             tinggi pinggul, dan massa 8,8 ton (8,7 ton panjang; 9,7 ton pendek).</item>
-
         <item>Albertosaurus adalah saudara dekat Tyrannosaurus rex dan hidup sekitar 70 juta tahun yang lalu di wilayah yang sekarang menjadi Amerika Utara,
             terutama di wilayah yang sekarang menjadi Kanada. Albertosaurus memiliki ukuran yang lebih kecil daripada Tyrannosaurus rex tetapi masih merupakan
             predator yang kuat dalam ekosistemnya.</item>
-    </string-array>
-
-    <string-array name="sauropodomorpha_nama">
-        <item>Brontosaurus</item>
-        <item>Diplodocus</item>
-    </string-array>
-
-    <string-array name="sauropodomorpha_gambar">
-        <item>@drawable/img_brontosaurus</item>
-        <item>@drawable/img_diplodocus</item>
-    </string-array>
-
-    <string-array name="sauropodomorpha_desc">
         <item>Brontosaurus adalah hewan berkaki empat yang besar, berleher panjang, dengan ekor panjang seperti cambuk, dan kaki depan sedikit lebih
             pendek daripada kaki belakangnya. Spesies terbesar, B. excelsus , berukuran panjang hingga 21–22 m (69–72 kaki) dari kepala hingga ekor dan beratnya mencapai 15–17 t (17–19 short ton);
             spesies lain lebih kecil, berukuran panjang 19 m (62 kaki) dan berat 14 t (15 ton pendek).</item>
-
         <item>Diplodocus ini hidup sekitar 154-150 juta tahun yang lalu di wilayah yang sekarang menjadi Amerika Utara.
             Diplodocus memiliki tubuh yang panjang dan ramping dengan leher yang ekstrem panjang. Mereka juga merupakan hewan herbivora
             yang memakan dedaunan dan tanaman rendah.</item>
-    </string-array>
-
-    <string-array name="stegosauridae_nama">
-        <item>Stegosaurus</item>
-        <item>Kentosaurus</item>
-    </string-array>
-
-    <string-array name="stegosauridae_gambar">
-        <item>@drawable/img_stegosaurus</item>
-        <item>@drawable/img_kentosaurus</item>
-    </string-array>
-
-    <string-array name="stegosauridae_desc">
         <item>Stegosaurus adalah sebuah genus dinosaurus herbivora besar dari Awal Jurassic di Amerika Utara.
             Spesies ini adalah salah satu jenis dinosaurus yang paling mudah diidentifikasi, karena kedua baris sisik yang saling silang di punggungnya
             (dasar untuk nama ilmiahnya) dan 2 pasang duri panjang di ekornya (disebut thagomizer). Stegosaurus adalah salah satu dinosaurus paling tenang, namun penyerangnya seperti Allosaurus atau
@@ -190,42 +252,28 @@
             yang dinamai dan dideksripsikan oleh paleontolog Jerman Edwin Hennig pada 1915. Kentrosaurus umumnya memiliki panjang sekitar 4-4.5 meter saat dewasa, serta memiliki berat sekitar 700-1600 kilogram.
             Mereka berjalan dengan empat kaki dengan kaki belakang yang tegak. Mereka juga memiliki kepala yang memanjang kedepan dan kecil, dengan paruh yang digunakan untuk mencabut material tumbuhan yang
             nantinya akan dicerna pada lambung yang besar.</item>
-    </string-array>
-
-    <string-array name="hadrosauridae_nama">
-        <item>Edmontosaurus</item>
-        <item>Parasaurolophus</item>
-    </string-array>
-
-    <string-array name="hadrosauridae_gambar">
-        <item>@drawable/img_edmontosaurus</item>
-        <item>@drawable/img_parasaurolophus</item>
-    </string-array>
-
-    <string-array name="hadrosauridae_desc">
+        <item>Edmontosaurus adalah genus dinosaurus herbivora berleher panjang dari keluarga Hadrosauridae. Mereka hidup di Amerika Utara selama periode Kapur Akhir, sekitar 75-66 juta tahun yang lalu. </item>
         <item> Dinosaurus ini merupakan anggota famili Hadrosauridae yang hidup sekitar 73-66 juta
             tahun yang lalu di wilayah yang sekarang menjadi Amerika Utara. Mereka memiliki tubuh besar dengan leher dan ekor yang panjang. Edmontosaurus adalah salah satu hadrosaurid yang paling
             banyak ditemukan, dan fosil-fosilnya telah ditemukan di banyak lokasi di Amerika Utara.</item>
         <item>Dinosaurs ini hidup sekitar 76-73 juta tahun yang lalu, juga di wilayah yang sekarang menjadi Amerika Utara.
             Mereka dikenal karena crests panjang yang mengarah ke belakang dari tengkorak mereka. Crests ini diyakini digunakan untuk komunikasi
             suara dan mungkin juga untuk mempertahankan spesies atau menarik pasangan.</item>
-    </string-array>
-
-    <string-array name="ceratopside_nama">
-        <item>Edmontosaurus</item>
-        <item>Parasaurolophus</item>
-    </string-array>
-
-    <string-array name="ceratopside_gambar">
-        <item>@drawable/img_triceratops</item>
-        <item>@drawable/img_styracosaurus</item>
-    </string-array>
-
-    <string-array name="ceratopside_desc">
         <item> Triceratops adalah salah satu dinosaurus ceratopsid yang paling terkenal. Mereka hidup sekitar 68-66 juta tahun yang lalu,
             pada periode Kapur Akhir, di wilayah yang sekarang menjadi Amerika Utara. Triceratops memiliki tiga tanduk di atas tengkoraknya: satu tanduk di hidung dan dua tanduk di atas mata.
             Mereka juga memiliki lempengan tulang besar yang melengkung di belakang tengkorak mereka. Triceratops adalah salah satu dinosaurus terbesar dari famili Ceratopsidae.</item>
-        <item>Styracosaurus hidup sekitar 75-70 juta tahun yang lalu, juga di Amerika Utara. Mereka memiliki ciri khas berupa satu tanduk besar yang menonjol di hidung mereka,
-            serta beberapa tanduk kecil di sekitar pinggiran tengkorak mereka. Styracosaurus juga memiliki lempengan tulang yang besar di belakang tengkorak mereka yang membentuk seperti cakar.</item>
+        <item>Velociraptor adalah predator oportunis. Mereka menyerang hampir semua binatang yang hidup bersamanya dengan cara berburu soliter dan mengandalkan pada pengelihatan yang tajam,
+            kemampuan berlari yang cepat, otak yang cerdas, dan cakar-cakar yang dahsyat.</item>
+        <item>Deinonychus adalah satu genus dinosaurus pemakan daging dari keluarga dromaeosauridae berukuran sebesar macan yang hidup pada masa geologi Zaman Kapur awal sekitar 115–108 juta tahun lalu.
+            Spesies ini dapat tumbuh mencapai ukuran panjang 34 meter (112 ft).</item>
+        <item>Ankylosaurus adalah salah satu jenis dinosaurus yang hidup pada periode kapur akhir sekitar 68 juta hingga 65 juta tahun yang lalu di Amerika Utara.[1] Memiliki tubuh sepanjang 8 meter ( 26 kaki),
+            tingginya sekitar 2 meter ( 6.6 kaki), dan beratnya mencapai setidaknya 4 ton. Ankylosaurus memiliki tubuh yang dilindungi oleh semacam cangkang keras yang membuat tubuhnya tidak bisa diserang dengan mudah,
+            bahkan oleh Tyrannosaurus rex</item>
+        <item>Euoplocephalus adalah dinosaurus ankylosauroid dengan panjang 6 meter dan berat sekitar 2 ton. Kepalanya memiliki tanduk dari tulang, paruh tak bergigi, gigi pipi (cheek teeth) mirip
+            pasak dan otak yang kecil. Euplocephalus hidup pada masa yang berdampingan dengan Tyrannosaurus dan Deinonychus.</item>
+        <item>Spinosaurus merupakan Theropoda raksasa yang dapat tumbuh hingga 18 m dengan tinggi sekitar 5 m (sampai layarnya) dan berat mencapai 7, 6 ton. Panjang tengkorak Spinosaurus 165 cm dengan seratus gigi-gigi runcing yang lurus sepanjang kira-kira 19 cm.
+            Ciri khas Spinosaurus adalah tulang belakangnya yang menjulang keatas sekitar 2 m dan merupakan layar yang dilapisi kulit. </item>
     </string-array>
+
+
 </resources>
