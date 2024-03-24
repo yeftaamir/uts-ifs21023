@@ -9,4 +9,9 @@ data class Dino(
     var deskripsi : String,
     var kelompok: String,
     var habitat: String,
+    var makanan: String,
+    var panjang: String,
+    var tinggi: String,
+    var bobot: String,
+    var kelemahan: String,
 ): Parcelable

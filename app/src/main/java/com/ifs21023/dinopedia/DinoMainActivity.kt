@@ -53,6 +53,12 @@ class DinoMainActivity : AppCompatActivity() {
         val dataDeskripsiDino = resources.getStringArray(R.array.deskripsi_dino)
         val dataKelompokDino = resources.getStringArray(R.array.dino_kelompok)
         val dataHabitatDino = resources.getStringArray(R.array.habitat_dino)
+        val dataMakananDino = resources.getStringArray(R.array.makanan_dino)
+        val dataPanjangDino = resources.getStringArray(R.array.panjang_dino)
+        val dataTinggiDino = resources.getStringArray(R.array.tinggi_dino)
+        val dataBobotDino = resources.getStringArray(R.array.bobot_dino)
+        val dataKelemahanDino = resources.getStringArray(R.array.kelemahan_dino)
+
 
         val startIndex = famili?.mulai
         val endIndex = famili?.selesai
@@ -62,7 +68,13 @@ class DinoMainActivity : AppCompatActivity() {
             val dino = Dino(
                 dataNamaDino[i],
                 dataIconDino.getResourceId(i, -1),
-                dataDeskripsiDino[i], dataKelompokDino[i], dataHabitatDino[i]
+                dataDeskripsiDino[i], dataKelompokDino[i], dataHabitatDino[i],
+                dataMakananDino[i],
+                dataPanjangDino[i],
+                dataTinggiDino[i],
+                dataBobotDino[i],
+                dataKelemahanDino[i]
+
             )
             dinoList.add(dino)
         }

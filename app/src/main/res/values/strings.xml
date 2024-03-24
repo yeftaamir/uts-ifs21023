@@ -131,6 +131,12 @@
     <string name="karakteristik_dino">Karakteristik Dinosaurus</string>
     <string name="kelompok_dino">Kelompok Dinosaurus</string>
     <string name="habitat_dino">Habitat Dinosaurus</string>
+    <string name="makanan_dino">Makanan Dinosaurus</string>
+    <string name="panjang_dino">Panjang Dinosaurus</string>
+    <string name="tinggi_dino">Tinggi Dinosaurus</string>
+    <string name="bobot_dino">Bobot Dinosaurus</string>
+    <string name="kelemahan_dino">Kelemahan Dinosaurus</string>
+
 
     <string-array name="nama_dino">
         <item>Tyranosaurus Rex</item>
@@ -274,6 +280,102 @@
         <item>Spinosaurus merupakan Theropoda raksasa yang dapat tumbuh hingga 18 m dengan tinggi sekitar 5 m (sampai layarnya) dan berat mencapai 7, 6 ton. Panjang tengkorak Spinosaurus 165 cm dengan seratus gigi-gigi runcing yang lurus sepanjang kira-kira 19 cm.
             Ciri khas Spinosaurus adalah tulang belakangnya yang menjulang keatas sekitar 2 m dan merupakan layar yang dilapisi kulit. </item>
     </string-array>
+
+    <string-array name="makanan_dino">
+        <item>Daging hewan herbivora dan kadang-kadang dinosaurus lain</item>
+        <item>Burung, mamalia kecil, dan hewan kecil lainnya</item>
+        <item>Daun-daunan dan tanaman tinggi</item>
+        <item>Daun, tunas, dan tanaman rendah</item>
+        <item>Tumbuhan rendah, semak, dan tanaman berbunga</item>
+        <item>Tumbuhan, seperti lumut, paku, dan tanaman berbunga</item>
+        <item>Daun, tunas, dan tanaman berair</item>
+        <item>Tumbuhan rendah, semak, dan tanaman berair</item>
+        <item>Daun, tunas, dan tanaman berair</item>
+        <item>Tumbuhan rendah, semak, dan tanaman berbunga</item>
+        <item>Tumbuhan, seperti paku dan tanaman berbunga</item>
+        <item>Tumbuhan rendah, semak, dan tanaman berbunga</item>
+        <item>Tumbuhan rendah, semak, dan tanaman berbunga</item>
+        <item>Tumbuhan, seperti paku dan tanaman berbunga</item>
+        <item>Tumbuhan rendah, semak, dan tanaman berbunga</item>
+        <item>Tumbuhan rendah, semak, dan tanaman berbunga</item>
+    </string-array>
+
+    <string-array name="panjang_dino">
+        <item>Sekitar 1200 cm</item>
+        <item>Antara 200 hingga 300 cm</item>
+        <item>Antara 1800 hingga 2400 cm</item>
+        <item>Antara 2000 hingga 2700 cm</item>
+        <item>Antara 700 hingga 900 cm</item>
+        <item>Antara 900 hingga 1100 cm</item>
+        <item>Antara 600 hingga 800 cm</item>
+        <item>Antara 500 hingga 600 cm</item>
+        <item>Antara 700 hingga 900 cm</item>
+        <item>Antara 400 hingga 500 cm</item>
+        <item>Antara 150 hingga 200 cm</item>
+        <item>Antara 300 hingga 400 cm</item>
+        <item>Antara 200 hingga 300 cm</item>
+        <item>Antara 200 hingga 300 cm</item>
+        <item>Antara 800 hingga 1000 cm</item>
+        <item>Antara 600 hingga 900 cm</item>
+    </string-array>
+
+    <string-array name="tinggi_dino">
+        <item>Tinggi sekitar 400 cm</item>
+        <item>Tinggi antara 100 hingga 200 cm</item>
+        <item>Tinggi antara 900 hingga 1200 cm</item>
+        <item>Tinggi antara 800 hingga 1000 cm</item>
+        <item>Tinggi antara 300 hingga 400 cm</item>
+        <item>Tinggi antara 400 hingga 500 cm</item>
+        <item>Tinggi antara 300 hingga 400 cm</item>
+        <item>Tinggi antara 300 hingga 400 cm</item>
+        <item>Tinggi antara 400 hingga 500 cm</item>
+        <item>Tinggi antara 200 hingga 300 cm</item>
+        <item>Tinggi antara 100 hingga 150 cm</item>
+        <item>Tinggi antara 200 hingga 300 cm</item>
+        <item>Tinggi antara 150 hingga 200 cm</item>
+        <item>Tinggi antara 150 hingga 200 cm</item>
+        <item>Tinggi antara 600 hingga 800 cm</item>
+        <item>Tinggi antara 400 hingga 600 cm</item>
+    </string-array>
+
+    <string-array name="bobot_dino">
+        <item>Antara 6000 hingga 9000 kg</item>
+        <item>Antara 15 hingga 30 kg</item>
+        <item>Antara 30000 hingga 50000 kg</item>
+        <item>Antara 25000 hingga 40000 kg</item>
+        <item>Antara 6000 hingga 9000 kg</item>
+        <item>Antara 7000 hingga 12000 kg</item>
+        <item>Antara 3000 hingga 6000 kg</item>
+        <item>Antara 2000 hingga 4000 kg</item>
+        <item>Antara 5000 hingga 10000 kg</item>
+        <item>Antara 500 hingga 1000 kg</item>
+        <item>Antara 50 hingga 100 kg</item>
+        <item>Antara 200 hingga 400 kg</item>
+        <item>Antara 150 hingga 300 kg</item>
+        <item>Antara 150 hingga 300 kg</item>
+        <item>Antara 3000 hingga 5000 kg</item>
+        <item>Antara 2000 hingga 4000 kg</item>
+    </string-array>
+
+    <string-array name="kelemahan_dino">
+        <item>Ukuran besar dan mungkin kecepatan yang terbatas</item>
+        <item>Ukuran kecil dan rentan terhadap predator lain</item>
+        <item>Pergerakan lambat dan rentan terhadap serangan predator besar</item>
+        <item>Ukuran besar dan mungkin rentan terhadap penyakit atau kelaparan</item>
+        <item>Ukuran besar dan mungkin rentan terhadap serangan predator besar</item>
+        <item>Ukuran besar dan rentan terhadap penyakit atau kelaparan</item>
+        <item>Perlindungan yang terbatas terhadap serangan predator besar</item>
+        <item>Rentan terhadap serangan predator besar</item>
+        <item>Ukuran besar dan mungkin kecepatan yang terbatas</item>
+        <item>Ukuran kecil dan rentan terhadap predator lain</item>
+        <item>Kecepatan yang rendah dan mungkin rentan terhadap serangan predator cepat</item>
+        <item>Ukuran kecil dan mungkin rentan terhadap predator lain</item>
+        <item>Ukuran kecil dan mungkin rentan terhadap predator lain</item>
+        <item>Ukuran besar dan mungkin kecepatan yang terbatas</item>
+        <item>Perlindungan yang terbatas terhadap serangan predator besar</item>
+        <item>Rentan terhadap serangan predator besar</item>
+    </string-array>
+
 
 
 </resources>

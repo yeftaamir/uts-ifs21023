@@ -52,6 +52,11 @@ class DetailDinoActivity : AppCompatActivity() {
         binding.tvDescDino.text = dino.deskripsi
         binding.tvKelompok.text = dino.kelompok
         binding.tvHabitat.text = dino.habitat
+        binding.tvMakanan.text = dino.makanan
+        binding.tvPanjang.text = dino.panjang
+        binding.tvTinggi.text = dino.tinggi
+        binding.tvBobot.text = dino.bobot
+        binding.tvKelemahan.text = dino.kelemahan
 
     }
 

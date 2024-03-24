@@ -12,4 +12,7 @@
     <color name="dark_primary">#223741</color>
     <color name="dark_text">#FFFFFF</color>
     <color name="dark_muted">#C4C4C4</color>
+    <color name="green_nude">#87ab69</color>
+    <color name="yellow_green">#c3c20e</color>
+    <color name="kuning_langsat">#f6f6db</color>
 </resources>
